@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >  Mi Primer Pagina Web</title>
+
+
+   
+   
+  <!--El atributo <rel>es un enlace entre dos documentos dscrube la relacion que mantiene el documento de destino con el documento presente -->
+   <link rel="stylesheet" href="css/styles.css">   
+       
+
+</head>
+
+<body >
+
+    <header id ="cabeceraweb">
+      <h1>Este seria el titulo de nuestra pagina web</h1>
+
+    </header>
+      <!--La etiqueta <nav> indican que se tiene un menu de navegacion-->
+      <nav id="navegacionprincipal">
+      <!--La etiqueta <ul> se utiliza para crear  una lista desordenada -->
+        <ul>
+       <!--La etiquta <li> se utiliza para crear cada elementos de la lista -->   
+            <li>Quienes somos</li>
+            <li>contactecnos</li>
+            <li> <a target="_blank"href=D:/Documentos/python/MiPrimerPagina/index%20-%202.html>Nuestros productos</a></li>
+            <li>Precios </li>
+
+        </ul>
+
+    
+      </nav>
+     <!-- La etiqueta <aside> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento-->
+      <aside id="seccionpagina">
+     <!--Todo lo que esté dentro de está etiqueta estará sujeto a su acción. El <blockquote> se usa para escribir una cita textual o un párrafo exacto y que éste se diferencie del resto del texto.-->
+      <!--La etiqueta <strong> indica un enfasis  fuerte o marcado para su contenido--> 
+      <blockquote><strong>Primer elemento</strong></blockquote>
+        <blockquote>Segundo elemento</blockquote>
+        <blockquote>Tercer elemento</blockquote>
+
+
+      </aside>
+      <!--Se utiliza La etiqueta <seccion> para identificar diferentes secciones en una pagina    -->
+       <section id="contenidoprincipal">
+
+     
+
+
+    
+      <!--La etiqueta <article> en HTML5 es utilizada para definir un contenido autónomo y de importancia en una página web. Por ejemplo, una entrada de blog, una revisión, una publicación en un foro, etc.-->
+       <article>
+
+        <header >
+          <!--La etiqueta <hgroup> representa un encabezado y contenido relacionado. Agrupa un solo elemento -->
+          <hgroup> 
+            <h1>Titulo de la noticia 1</h1>
+            <h2>Subtitulo de la noticia 1</h2>
+          </hgroup>
+          <time datetime="2023/05/04"pubdate> Noticia publicada el dia 05/04/2023</time>
+            
+        </header>
+        <!--La etiqueta <figure> indicarle al navegador de que el contenido que esta dentro de ella se trata de una imagen.-->
+        <figure >
+               <!--La etiqueta <img> es para mostrar imagenes -->
+               <!--El atributo <src> contiene una ruta que apunta a la imagen que quieres poner en la pagina que puede ser una URL relativa o absoluta -->
+               <img  src="imagenes/html401.png" width="600" height="300"/>
+               <!--La etiqueta <figcaption> representa un subtitulo o leyenda asociado al contenido del elemento padre <figure> pudiendo ser colocado como primer o ultimo hijo-->
+               <figcaption>
+              HTML
+
+            </figcaption>
+        
+
+        </figure>
+        <!--La etiqueta <mark> Marca un  texto -->
+        <p><mark> Noticia 1</mark></p>
+        <!--La etiqueta <em> indica enfasis.Sustituye a la etiqueta <i>-->
+        <p><em>Seguimos hablando de noticia 1</em></p>
+        <!--La etiqueta <strong> Marca texto importante.-->
+        <p> de hablar de la<strong> noticia </strong>1</p>
+
+      
+
+       </article>
+       <article>
+        <header>
+          <h1>Titulo de la noticia 2</h1>
+
+        </header>
+        <p>Noticia 1</p>
+        <p>Seguimos hablando de noticia 2</p>
+        <p>Terminamos de hablar de la noticia 2</p>
+
+        <footer>
+          <!--<p> Sirve para escribir parrafos -->  
+          <p>Comentarios de usuarios </p>
+    <!--una línea horizontal que puede ser usada para separar párrafos o secciones de tu página web.-->
+    <hr>
+
+
+    <!-- La etiqueta de hipervínculo <a> sirve para navegar -->
+    <a target="_blank"href=https://codigofacilito.com/ >Ir a CodigoFacilito</a>
+   <!--La etiqueta <br> produce un salto de linea en el texto -->
+    <br>
+   <a target="_blank"href=https://platzi.com// >Ir a Platzi</a>
+   <br>
+    <a target="_blank"href=https://codepen.io// >Ir a Codepen</a>
+    <br>
+    <a target="_blank"href=https://oregoom.com/ >Ir a Curso Oregoon</a>
+    <br>  
+    
+
+        </footer>
+
+
+       </article>
+
+      </section>
+       <!--La etuquita <footer> Es común utilizarla para incluir información sobre el autor del sitio web, la fecha de publicación, enlaces a páginas relacionadas o cualquier otra información relevante que se desee mostrar en el pie de página.--> 
+        <footer id="piepagina">
+          <!---La etiquta address es para informacion de contacto. debe ir dentro del footer-->
+          <address>Telefono : 3165035344</address>
+          <!--La etiqueta <em> Sirve para letra cursiva-->    
+          <p><em>Derechos reservados : Jhoesly Camargo </em></p>
+
+        </footer>
+
+      
+  
+
+
+   
+ <!--<form>
+    <label for="nombre">Nombre</label>
+    La etiquta <input> -te permite crear formularios porque puede tomar texto o actuar como un botón de radio o una casilla de verificación.
+    <input id ="nombre">
+    <br><br>
+    <label for="apellidos">Apellidos</label>
+    <input id ="apellidos">
+</form>-->
+
+
+
+</body>
+</html>

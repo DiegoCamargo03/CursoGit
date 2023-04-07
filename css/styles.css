@@ -1,0 +1,68 @@
+
+body {
+  font-family: system-ui;
+  background: rgb(253, 253, 251);
+  color: black;
+  text-align :justify   ;
+}
+
+#cabeceraweb{
+  background-color: rgba(139, 139, 214, 0.897);
+  text-align : center
+
+}
+
+
+
+#navegacionprincipal{
+
+background-color: white;
+
+}
+
+
+#seccionpagina {
+  background-color:rgba(139, 139, 214, 0.897);
+  text-align :justify;
+  float: left;
+  height: 910px ;
+  
+
+
+}
+
+
+
+#contenidoprincipal{
+  
+  background :rgba(139, 139, 214, 0.897);
+  text-align :justify;
+  margin-left:220px ;
+  padding-left:20px ;
+  padding-top: 20px;
+
+
+
+ 
+
+}
+
+
+
+#piepagina{
+  background :rgba(139, 139, 214, 0.897);
+  text-align : center;
+  clear :both;
+  margin-top: 20px;
+
+}
+li{
+  background-color: rgba(139, 139, 214, 0.897);
+  display: inline;
+
+
+}
+
+
+
+
